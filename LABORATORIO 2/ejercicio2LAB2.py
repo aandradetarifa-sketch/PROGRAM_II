@@ -39,7 +39,6 @@ class AlgebraVectorial:
     def componente_en(self, v):
         return self.producto_punto(v) / v.magnitud()
 
-
 a = AlgebraVectorial(3, 4)
 b = AlgebraVectorial(4, -3)
 
